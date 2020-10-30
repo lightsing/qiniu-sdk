@@ -1,0 +1,3 @@
+[submodule "qiniu-c-sdk"]
+	path = qiniu-sys/qiniu-c-sdk
+	url = https://github.com/lightsing/qiniu-c-sdk

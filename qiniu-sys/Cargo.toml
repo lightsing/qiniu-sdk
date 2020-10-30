@@ -1,0 +1,19 @@
+[package]
+name = "qiniu-sys"
+version = "0.1.0"
+authors = ["lightsing <light.tsing@gmail.com>"]
+links = "qiniu"
+build = "build.rs"
+description = "Native bindings to the qiniu c-sdk library"
+edition = "2018"
+
+[lib]
+name = "qiniu_sys"
+path = "lib.rs"
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.55.1"
+
+[dependencies]
+

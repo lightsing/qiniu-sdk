@@ -1,0 +1,11 @@
+[package]
+name = "qiniu-sdk"
+version = "0.1.0"
+authors = ["lightsing <light.tsing@gmail.com>"]
+description = "Native bindings to the qiniu c-sdk library"
+edition = "2018"
+
+
+[dependencies]
+libc = "0.2.80"
+qiniu-sys = { path = "qiniu-sys", version = "0.1.0" }
